@@ -1,6 +1,4 @@
 library(testthat)
 library(ShinytestMinimalProject)
 
-
-testthat::test_check("ShinytestMinimalProject")
-
+test_check("ShinytestMinimalProject")

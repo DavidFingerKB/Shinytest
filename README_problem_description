@@ -1,0 +1,17 @@
+There is a test in tests/testthat/test-mean.R using testthat and there is a shiny test in tests/testthat/test-shinytest_app.R also using shinytest.
+Running each testscript alone works fine. 
+Running a package check with both tests included does not work, in that case there is an error. 
+When excluding tests/testthat/test-shinytest_app.R from the package check, it runs fine again. 
+
+
+We are currently using the following versions: 
+R 4.0.2
+RStudio 1.3.1056
+Shiny 1.5.0
+shinytest 1.4.0
+
+But the same problem also seemed to be the case earlier R versions.
+
+
+The folder structure in this package is exactly how we are using it in a larger project. It would be great, if we could use both testthat and shinytest with our current setup.
+
